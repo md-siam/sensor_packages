@@ -11,14 +11,14 @@ class MyBatteryPlus extends StatefulWidget {
 }
 
 class _MyBatteryPlusState extends State<MyBatteryPlus> {
-  var batteryLabel = 0;
+  var batteryLevel = 0;
   final Battery _battery = Battery();
 
-  printBatteryLevel(Battery battery) async {
+  printBatteryLevel() async {
     try {
-      batteryLabel = await battery.batteryLevel;
+      batteryLevel = await _battery.batteryLevel;
       setState(() {});
-      print('Battery Level: $batteryLabel');
+      debugPrint('Battery Level: $batteryLevel');
     } catch (e) {
       log(e.toString());
     }
@@ -27,25 +27,36 @@ class _MyBatteryPlusState extends State<MyBatteryPlus> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Battery Plus')),
+      appBar: AppBar(
+        title: const Text('Battery Plus'),
+        centerTitle: true,
+      ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(batteryLabel.toString()),
+            Container(
+              height: 200,
+              width: double.infinity,
+              alignment: Alignment.center,
+              color: Colors.deepPurple[100],
+              child: Text(
+                batteryLevel.toString(),
+                style: const TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
             const SizedBox(height: 20),
             ElevatedButton(
-              onPressed: () {
-                printBatteryLevel(_battery);
-              },
+              onPressed: () => printBatteryLevel(),
               child: const Text('Press'),
             ),
+            const SizedBox(height: 20),
             ElevatedButton(
-              onPressed: () {
-                setState(() {
-                  batteryLabel = 0;
-                });
-              },
+              onPressed: () => setState(() {
+                batteryLevel = 0;
+              }),
               child: const Text('Reset'),
             )
           ],
