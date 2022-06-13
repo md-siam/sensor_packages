@@ -30,6 +30,6 @@ Playlist URLs: <br>
     <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
     <img src="screenshots/flutter_favorite_badges/flutter_favorite.png" width="65"><br><br><br><br>
     <a href="https://pub.dev/packages/battery_plus" target="_blank">battery_plus: ^2.1.4</a><br><br><br><br><br><br><br><br></td>
-    <td><a href="/screenshots/1_battery_plus.gif"><img align="center" src="screenshots/1_battery_plus.gif" height="350"></img></a></td>
+    <td><img align="center" src="screenshots/1_battery_plus.gif" height="350"></img></td>
   </tr>
 </table>
