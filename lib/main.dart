@@ -22,7 +22,8 @@ class MyApp extends StatelessWidget {
       title: 'Sensor Packages',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: const MyBatteryPlus(),
+      //home: const MyBatteryPlus(),
+      home: const MyWakelock(),
     );
   }
 }

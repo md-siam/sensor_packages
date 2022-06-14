@@ -13,7 +13,7 @@ Playlist URLs: <br>
 ## Packages List:
 
 1. [Battery Plus](/lib/1_battery_plus/battery_plus.dart) > final Battery _battery = Battery() > batteryLevel = await _battery.batteryLevel
-
+2. [WakeLock](/lib/2_wakelock/wakelock.dart) > Wakelock.enable(); > Wakelock.disable();
 
 ## Table of Contents:
 
@@ -31,5 +31,11 @@ Playlist URLs: <br>
     <img src="screenshots/flutter_favorite_badges/flutter_favorite.png" width="65"><br><br><br><br>
     <a href="https://pub.dev/packages/battery_plus" target="_blank">battery_plus: ^2.1.4</a><br><br><br><br><br><br><br><br></td>
     <td><img align="center" src="screenshots/1_battery_plus.gif" height="350"></img></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><a href="lib/2_wakelock/wakelock.dart">WakeLock</a></td>
+    <td><a href="https://pub.dev/packages/wakelock" target="_blank">wakelock: ^0.6.1+2</a></td>
+    <td><img align="center" src="screenshots/2_wakelock.gif" height="350"></img></td>
   </tr>
 </table>
