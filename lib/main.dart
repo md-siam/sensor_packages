@@ -23,7 +23,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       //home: const MyBatteryPlus(),
-      home: const MyWakelock(),
+      //home: const MyWakelock(),
+      home: const MyLocalAuth(),
     );
   }
 }

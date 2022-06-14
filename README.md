@@ -7,13 +7,15 @@
 # Sensor Packages
 
 <img align="right" src="screenshots/app_store_logos/playstore.png" height="200"></img>
-Introduction to sensor packages: This repo will teach you some of the popular sensor controlling packages that are available in [pub.dev](https://pub.dev), & how to use them for the application development. These packages are for reading the sensors' output, hence requires an actual mobile device to check their reliability. I am using a ```Redmi Note 9 Pro``` phone for testing these packages in ```app-release``` mode.<br>
+Introduction to sensor packages: This repo will teach you some of the popular sensor controlling packages that are available in [pub.dev](https://pub.dev), & how to use them for the application development. These packages are for reading the sensors' output, hence requires an actual mobile device to check their reliability. I am using a `Redmi Note 9 Pro` phone for testing these packages in `app-release` mode.<br>
 Playlist URLs: <br>
+[YouTube: local_auth](https://www.youtube.com/watch?v=qTuVurGvdbM&t=2s)<br>
 
 ## Packages List:
 
-1. [Battery Plus](/lib/1_battery_plus/battery_plus.dart) > final Battery _battery = Battery() > batteryLevel = await _battery.batteryLevel
+1. [Battery Plus](/lib/1_battery_plus/battery_plus.dart) > final Battery \_battery = Battery() > batteryLevel = await \_battery.batteryLevel
 2. [WakeLock](/lib/2_wakelock/wakelock.dart) > Wakelock.enable(); > Wakelock.disable();
+3. [Local Auth](/lib/3_local_auth/local_auth.dart) > watch this [video](https://www.youtube.com/watch?v=qTuVurGvdbM&t=2s)
 
 ## Table of Contents:
 
@@ -37,5 +39,11 @@ Playlist URLs: <br>
     <td><a href="lib/2_wakelock/wakelock.dart">WakeLock</a></td>
     <td><a href="https://pub.dev/packages/wakelock" target="_blank">wakelock: ^0.6.1+2</a></td>
     <td><img align="center" src="screenshots/2_wakelock.gif" height="350"></img></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><a href="lib/2_wakelock/wakelock.dart">Local Auth</a></td>
+    <td><a href="https://pub.dev/packages/local_auth" target="_blank">local_auth: ^2.1.0</a></td>
+    <td><img align="center" src="screenshots/3_local_auth.gif" height="350"></img></td>
   </tr>
 </table>

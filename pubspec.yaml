@@ -44,11 +44,18 @@ dependencies:
   battery_plus: ^2.1.4
   # For keeping the device screen awake
   wakelock: ^0.6.1+2
+  # For local, on-device authentication
+  local_auth: ^2.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  # Copyright (c) 2022, Md. Siam
+  # http://mdsiam.xyz/
+  #
+  # Use of this source code is governed by an MIT-style
+  # license that can be found in the LICENSE file or at
+  # https://choosealicense.com/licenses/mit/
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
