@@ -10,6 +10,7 @@
 Introduction to sensor packages: This repo will teach you some of the popular sensor controlling packages that are available in [pub.dev](https://pub.dev), & how to use them for the application development. These packages are for reading the sensors' output, hence requires an actual mobile device to check their reliability. I am using a `Redmi Note 9 Pro` phone for testing these packages in `app-release` mode.<br>
 Playlist URLs: <br>
 [YouTube: local_auth](https://www.youtube.com/watch?v=qTuVurGvdbM&t=2s)<br>
+[YouTube: shake](https://www.youtube.com/watch?v=XVdexXpJIa0)<br>
 
 ## Packages List:
 
@@ -17,6 +18,7 @@ Playlist URLs: <br>
 2. [WakeLock](/lib/2_wakelock/wakelock.dart) > Wakelock.enable(); > Wakelock.disable();
 3. [Local Auth](/lib/3_local_auth/local_auth.dart) > watch this [video](https://www.youtube.com/watch?v=qTuVurGvdbM&t=2s)
 4. [Sensors Plus](/lib/4_sensors_plus/sensors_plus.dart) > userAccelerometerEvents.listen((UserAccelerometerEvent event){} > gyroscopeEvents.listen((GyroscopeEvent event){} > magnetometerEvents.listen((MagnetometerEvent event){}
+5. [Shake](/lib/5_shake/shake.dart) > ShakeDetector.autoStart(onPhoneShake: () {})
 
 ## Table of Contents:
 
@@ -54,5 +56,11 @@ Playlist URLs: <br>
     <img src="screenshots/flutter_favorite_badges/flutter_favorite.png" width="65"><br><br><br><br>
     <a href="https://pub.dev/packages/sensors_plus" target="_blank">sensors_plus: ^1.3.2</a><br><br><br><br><br><br><br><br></td>
     <td><img align="center" src="screenshots/4_sensors_plus.gif" height="350"></img></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><a href="lib/5_shake/shake.dart">Shake</a></td>
+    <td><a href="https://pub.dev/packages/shake" target="_blank">shake: ^2.1.0</a></td>
+    <td><img align="center" src="screenshots/5_shake.gif" height="350"></img></td>
   </tr>
 </table>

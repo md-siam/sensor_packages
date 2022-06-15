@@ -32,7 +32,8 @@ class MyApp extends StatelessWidget {
       //home: const MyBatteryPlus(),
       //home: const MyWakelock(),
       //home: const MyLocalAuth(),
-      home: const MySensorsPlus(),
+      //home: const MySensorsPlus(),
+      home: const MyShake(),
     );
   }
 }
