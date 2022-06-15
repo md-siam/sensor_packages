@@ -46,6 +46,8 @@ dependencies:
   wakelock: ^0.6.1+2
   # For local, on-device authentication
   local_auth: ^2.1.0
+  # For accessing the accelerometer, gyroscope, and magnetometer sensors
+  sensors_plus: ^1.3.2
 
 dev_dependencies:
   flutter_test:

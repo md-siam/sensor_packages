@@ -6,10 +6,17 @@
 // https://choosealicense.com/licenses/mit/
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import 'routes.dart';
 
 void main() {
+  /// This code is for [disabling] the landscape orientation
+  ///
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations(
+    [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown],
+  );
   runApp(const MyApp());
 }
 
@@ -24,7 +31,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       //home: const MyBatteryPlus(),
       //home: const MyWakelock(),
-      home: const MyLocalAuth(),
+      //home: const MyLocalAuth(),
+      home: const MySensorsPlus(),
     );
   }
 }

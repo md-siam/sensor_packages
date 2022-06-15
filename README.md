@@ -16,6 +16,7 @@ Playlist URLs: <br>
 1. [Battery Plus](/lib/1_battery_plus/battery_plus.dart) > final Battery \_battery = Battery() > batteryLevel = await \_battery.batteryLevel
 2. [WakeLock](/lib/2_wakelock/wakelock.dart) > Wakelock.enable(); > Wakelock.disable();
 3. [Local Auth](/lib/3_local_auth/local_auth.dart) > watch this [video](https://www.youtube.com/watch?v=qTuVurGvdbM&t=2s)
+4. [Sensors Plus](/lib/4_sensors_plus/sensors_plus.dart) > userAccelerometerEvents.listen((UserAccelerometerEvent event){} > gyroscopeEvents.listen((GyroscopeEvent event){} > magnetometerEvents.listen((MagnetometerEvent event){}
 
 ## Table of Contents:
 
@@ -42,8 +43,16 @@ Playlist URLs: <br>
   </tr>
   <tr>
     <td>3</td>
-    <td><a href="lib/2_wakelock/wakelock.dart">Local Auth</a></td>
+    <td><a href="lib/3_local_auth/local_auth.dart">Local Auth</a></td>
     <td><a href="https://pub.dev/packages/local_auth" target="_blank">local_auth: ^2.1.0</a></td>
     <td><img align="center" src="screenshots/3_local_auth.gif" height="350"></img></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><a href="lib/4_sensors_plus/sensors_plus.dart">Sensors Plus</a></td>
+    <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <img src="screenshots/flutter_favorite_badges/flutter_favorite.png" width="65"><br><br><br><br>
+    <a href="https://pub.dev/packages/sensors_plus" target="_blank">sensors_plus: ^1.3.2</a><br><br><br><br><br><br><br><br></td>
+    <td><img align="center" src="screenshots/4_sensors_plus.gif" height="350"></img></td>
   </tr>
 </table>
