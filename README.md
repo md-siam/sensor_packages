@@ -11,6 +11,7 @@ Introduction to sensor packages: This repo will teach you some of the popular se
 Playlist URLs: <br>
 [YouTube: local_auth](https://www.youtube.com/watch?v=qTuVurGvdbM&t=2s)<br>
 [YouTube: shake](https://www.youtube.com/watch?v=XVdexXpJIa0)<br>
+[YouTube: qr_code_scanner](https://www.youtube.com/watch?v=hHehIGfX_yU)<br>
 
 ## Packages List:
 

@@ -50,6 +50,8 @@ dependencies:
   sensors_plus: ^1.3.2
   # For detecting phone shakes
   shake: ^2.1.0
+  # For scanning QR Code
+  qr_code_scanner: ^1.0.0
 
 dev_dependencies:
   flutter_test:
