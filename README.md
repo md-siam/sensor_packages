@@ -20,6 +20,7 @@ Playlist URLs: <br>
 3. [Local Auth](/lib/3_local_auth/local_auth.dart) > watch this [video](https://www.youtube.com/watch?v=qTuVurGvdbM&t=2s)
 4. [Sensors Plus](/lib/4_sensors_plus/sensors_plus.dart) > userAccelerometerEvents.listen((UserAccelerometerEvent event){} > gyroscopeEvents.listen((GyroscopeEvent event){} > magnetometerEvents.listen((MagnetometerEvent event){}
 5. [Shake](/lib/5_shake/shake.dart) > ShakeDetector.autoStart(onPhoneShake: () {})
+6. [QR Code Scanner](/lib/6_qr_code_scanner/qr_code_scanner.dart) > watch this [video](https://www.youtube.com/watch?v=hHehIGfX_yU)
 
 ## Table of Contents:
 
@@ -63,5 +64,11 @@ Playlist URLs: <br>
     <td><a href="lib/5_shake/shake.dart">Shake</a></td>
     <td><a href="https://pub.dev/packages/shake" target="_blank">shake: ^2.1.0</a></td>
     <td><img align="center" src="screenshots/5_shake.gif" height="350"></img></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td><a href="lib/6_qr_code_scanner/qr_code_scanner.dart">QR Code Scanner</a></td>
+    <td><a href="https://pub.dev/packages/qr_code_scanner" target="_blank">qr_code_scanner: ^1.0.0</a></td>
+    <td><img align="center" src="screenshots/6_qr_code_scanner.gif" height="350"></img></td>
   </tr>
 </table>
