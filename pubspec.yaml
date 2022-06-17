@@ -52,6 +52,8 @@ dependencies:
   shake: ^2.1.0
   # For scanning QR Code
   qr_code_scanner: ^1.0.0
+  # For accessing the device cameras
+  camera: ^0.9.8+1
 
 dev_dependencies:
   flutter_test:

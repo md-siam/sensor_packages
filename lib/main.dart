@@ -34,7 +34,8 @@ class MyApp extends StatelessWidget {
       //home: const MyLocalAuth(),
       //home: const MySensorsPlus(),
       //home: const MyShake(),
-      home: const MyQRCodeScanner(),
+      //home: const MyQRCodeScanner(),
+      home: const MyCamera(),
     );
   }
 }

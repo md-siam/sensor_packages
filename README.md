@@ -21,6 +21,7 @@ Playlist URLs: <br>
 4. [Sensors Plus](/lib/4_sensors_plus/sensors_plus.dart) > userAccelerometerEvents.listen((UserAccelerometerEvent event){} > gyroscopeEvents.listen((GyroscopeEvent event){} > magnetometerEvents.listen((MagnetometerEvent event){}
 5. [Shake](/lib/5_shake/shake.dart) > ShakeDetector.autoStart(onPhoneShake: () {})
 6. [QR Code Scanner](/lib/6_qr_code_scanner/qr_code_scanner.dart) > watch this [video](https://www.youtube.com/watch?v=hHehIGfX_yU)
+7. [Camera](/lib/7_camera/camera.dart) > late CameraController controller > controller = CameraController() > CameraPreview(controller) > controller.takePicture()
 
 ## Table of Contents:
 
@@ -70,5 +71,11 @@ Playlist URLs: <br>
     <td><a href="lib/6_qr_code_scanner/qr_code_scanner.dart">QR Code Scanner</a></td>
     <td><a href="https://pub.dev/packages/qr_code_scanner" target="_blank">qr_code_scanner: ^1.0.0</a></td>
     <td><img align="center" src="screenshots/6_qr_code_scanner.gif" height="350"></img></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td><a href="lib/7_camera/camera.dart">Camera</a></td>
+    <td><a href="https://pub.dev/packages/camera" target="_blank">camera: ^0.9.8+1</a></td>
+    <td><img align="center" src="screenshots/7_camera.gif" height="350"></img></td>
   </tr>
 </table>
