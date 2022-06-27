@@ -12,6 +12,10 @@ PODS:
     - MTBBarcodeScanner
   - sensors_plus (0.0.1):
     - Flutter
+  - speech_to_text (0.0.1):
+    - Flutter
+    - Try
+  - Try (2.1.1)
   - wakelock (0.0.1):
     - Flutter
 
@@ -22,11 +26,13 @@ DEPENDENCIES:
   - local_auth_ios (from `.symlinks/plugins/local_auth_ios/ios`)
   - qr_code_scanner (from `.symlinks/plugins/qr_code_scanner/ios`)
   - sensors_plus (from `.symlinks/plugins/sensors_plus/ios`)
+  - speech_to_text (from `.symlinks/plugins/speech_to_text/ios`)
   - wakelock (from `.symlinks/plugins/wakelock/ios`)
 
 SPEC REPOS:
   trunk:
     - MTBBarcodeScanner
+    - Try
 
 EXTERNAL SOURCES:
   battery_plus:
@@ -41,6 +47,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/qr_code_scanner/ios"
   sensors_plus:
     :path: ".symlinks/plugins/sensors_plus/ios"
+  speech_to_text:
+    :path: ".symlinks/plugins/speech_to_text/ios"
   wakelock:
     :path: ".symlinks/plugins/wakelock/ios"
 
@@ -52,6 +60,8 @@ SPEC CHECKSUMS:
   MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
   qr_code_scanner: bb67d64904c3b9658ada8c402e8b4d406d5d796e
   sensors_plus: 5717760720f7e6acd96fdbd75b7428f5ad755ec2
+  speech_to_text: b43a7d99aef037bd758ed8e45d79bbac035d2dfe
+  Try: 5ef669ae832617b3cee58cb2c6f99fb767a4ff96
   wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
 
 PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c

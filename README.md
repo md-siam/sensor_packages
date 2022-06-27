@@ -12,6 +12,7 @@ Playlist URLs: <br>
 [YouTube: local_auth](https://www.youtube.com/watch?v=qTuVurGvdbM&t=2s)<br>
 [YouTube: shake](https://www.youtube.com/watch?v=XVdexXpJIa0)<br>
 [YouTube: qr_code_scanner](https://www.youtube.com/watch?v=hHehIGfX_yU)<br>
+[YouTube: speech_to_text](https://www.youtube.com/watch?v=wDWoD1AaLu8)<br>
 
 ## Packages List:
 
@@ -22,6 +23,7 @@ Playlist URLs: <br>
 5. [Shake](/lib/5_shake/shake.dart) > ShakeDetector.autoStart(onPhoneShake: () {})
 6. [QR Code Scanner](/lib/6_qr_code_scanner/qr_code_scanner.dart) > watch this [video](https://www.youtube.com/watch?v=hHehIGfX_yU)
 7. [Camera](/lib/7_camera/camera.dart) > late CameraController controller > controller = CameraController() > CameraPreview(controller) > controller.takePicture()
+8. [Speech To Text](/lib/8_speech_to_text/speech_to_text.dart) > 
 
 ## Table of Contents:
 
@@ -77,5 +79,15 @@ Playlist URLs: <br>
     <td><a href="lib/7_camera/camera.dart">Camera</a></td>
     <td><a href="https://pub.dev/packages/camera" target="_blank">camera: ^0.9.8+1</a></td>
     <td><img align="center" src="screenshots/7_camera.gif" height="350"></img></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td><a href="lib/8_speech_to_text/speech_to_text.dart">Speech To Text</a></td>
+    <td>
+    <a href="https://pub.dev/packages/speech_to_text" target="_blank">speech_to_text: ^5.6.0</a><br>
+    <a href="https://pub.dev/packages/avatar_glow" target="_blank">avatar_glow: ^2.0.2</a><br>
+    <a href="https://pub.dev/packages/highlight_text" target="_blank">highlight_text: ^1.4.0</a>
+    </td>
+    <td><img align="center" src="screenera.gif" height="350"></img></td>
   </tr>
 </table>

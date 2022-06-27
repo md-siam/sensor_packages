@@ -6,6 +6,8 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>This app needs camera access to scan QR codes</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This app needs speech recognition access</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This app needs microphone access for video recording</string>
 	<key>NSFaceIDUsageDescription</key>

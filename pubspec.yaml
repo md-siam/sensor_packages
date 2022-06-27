@@ -54,6 +54,12 @@ dependencies:
   qr_code_scanner: ^1.0.0
   # For accessing the device cameras
   camera: ^0.9.8+1
+  # For using device specific speech recognition capability
+  speech_to_text: ^5.6.0
+  # For cool background glowing animation
+  avatar_glow: ^2.0.2
+  # For highlighting text
+  highlight_text: ^1.4.0
 
 dev_dependencies:
   flutter_test:
@@ -84,7 +90,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   # assets:
-  #   - images/a_dot_burr.jpeg
+  #   - assets/sounds/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
