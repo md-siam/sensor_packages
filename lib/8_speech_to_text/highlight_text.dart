@@ -4,40 +4,40 @@ import 'package:flutter/material.dart';
 import 'package:highlight_text/highlight_text.dart';
 
 final Map<String, HighlightedWord> highlights = {
-  'flutter': HighlightedWord(
-    onTap: () => print('flutter'),
+  'bitcoin': HighlightedWord(
+    onTap: () => print('bitcoin'),
     textStyle: const TextStyle(
       fontSize: 32,
       color: Colors.blue,
       fontWeight: FontWeight.bold,
     ),
   ),
-  'voice': HighlightedWord(
-    onTap: () => print('voice'),
+  'cryptocurrency': HighlightedWord(
+    onTap: () => print('cryptocurrency'),
     textStyle: const TextStyle(
       fontSize: 32,
       color: Colors.green,
       fontWeight: FontWeight.bold,
     ),
   ),
-  'subscribe': HighlightedWord(
-    onTap: () => print('subscribe'),
+  'hype': HighlightedWord(
+    onTap: () => print('hype'),
     textStyle: const TextStyle(
       fontSize: 32,
       color: Colors.red,
       fontWeight: FontWeight.bold,
     ),
   ),
-  'like': HighlightedWord(
-    onTap: () => print('like'),
+  'losing': HighlightedWord(
+    onTap: () => print('losing'),
     textStyle: const TextStyle(
       fontSize: 32,
       color: Colors.blueAccent,
       fontWeight: FontWeight.bold,
     ),
   ),
-  'comment': HighlightedWord(
-    onTap: () => print('comment'),
+  'recession': HighlightedWord(
+    onTap: () => print('recession'),
     textStyle: const TextStyle(
       fontSize: 32,
       color: Colors.green,

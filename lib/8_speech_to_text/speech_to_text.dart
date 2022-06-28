@@ -32,7 +32,10 @@ class _MySpeechToTextState extends State<MySpeechToText> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Speech To Text')),
+      appBar: AppBar(
+        title: const Text('Speech To Text'),
+        centerTitle: true,
+      ),
       body: SingleChildScrollView(
         reverse: true,
         child: Container(

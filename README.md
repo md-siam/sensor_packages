@@ -23,7 +23,7 @@ Playlist URLs: <br>
 5. [Shake](/lib/5_shake/shake.dart) > ShakeDetector.autoStart(onPhoneShake: () {})
 6. [QR Code Scanner](/lib/6_qr_code_scanner/qr_code_scanner.dart) > watch this [video](https://www.youtube.com/watch?v=hHehIGfX_yU)
 7. [Camera](/lib/7_camera/camera.dart) > late CameraController controller > controller = CameraController() > CameraPreview(controller) > controller.takePicture()
-8. [Speech To Text](/lib/8_speech_to_text/speech_to_text.dart) > 
+8. [Speech To Text](/lib/8_speech_to_text/speech_to_text.dart) > watch this [video](https://www.youtube.com/watch?v=wDWoD1AaLu8)
 
 ## Table of Contents:
 
@@ -88,6 +88,6 @@ Playlist URLs: <br>
     <a href="https://pub.dev/packages/avatar_glow" target="_blank">avatar_glow: ^2.0.2</a><br>
     <a href="https://pub.dev/packages/highlight_text" target="_blank">highlight_text: ^1.4.0</a>
     </td>
-    <td><img align="center" src="screenera.gif" height="350"></img></td>
+    <td><img align="center" src="screenshots/8_speech_to_text.gif" height="350"></img></td>
   </tr>
 </table>
